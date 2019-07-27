@@ -24,19 +24,21 @@ h1 {
 }
 
 /*THIS IS THE NAV BAR*/
-.top {
-    top: 0;
-    margin: auto;
-    width: 960px;
-}
-
-
-
 .total_navbar{
     background: #ffffff;
     border-bottom: 1px solid #cccccc;
     width: 100%
 }
+
+.top {
+    top: 0;
+    margin: auto;
+    width: 80%;
+}
+
+
+
+
 
 #nav_bar {
     display: inline;
@@ -228,21 +230,17 @@ input {
 
 /* MEDIA QUERIES*/
 
-@media (max-width: 640px){
+/*SMALL///////////////////////////////*/
+
+@media screen and (max-width: 640px){
     /*NAVBAR*/
 
-    .total_navbar{
-        background: white;
-
-    }
-    .top {
-        width: 100%;
-        margin: 0;
+    .total_navbar {
+        width: 100%
     }
 
     #nav_bar {
         display: block;
-        width: 100%;
     }
     .name {
         width: 100%;
@@ -251,7 +249,7 @@ input {
     }
     .nav_bar {
         height: 40px ;
-        width: 80%;
+        width: 100%;
         margin: auto;
         float: none;
         display: block;
